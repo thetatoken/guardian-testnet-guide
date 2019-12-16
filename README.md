@@ -16,6 +16,7 @@ wget -O guardian_testnet/node/config.yaml `curl 'http://guardian-testnet-data.th
 chmod +x bin/theta
 chmod +x bin/thetacli
 export PATH=$PATH:~/theta/bin
+cd bin/
 ```
 
 The steps to install the binary on MacOSX and Windows are similar (on Windows you can use the PowerShell or Cygwin). The only difference is that the `os` parameter for downloading the MacOSX and Windows binary are `macos` and `windows`, respectively.
@@ -25,7 +26,7 @@ The steps to install the binary on MacOSX and Windows are similar (on Windows yo
 Now launch the Theta node in a console with the following command:
 
 ```
-theta start --config=./guardian_testnet/node
+theta start --config=../guardian_testnet/node
 ```
 
 **NOTE**: When the Theta node launches for the first time, you need to choose a password to encrypt the signing key of the guardian node. **Please choose a secure password and keep it in a safe place**. The next time when you restart the node, you will need the password to unlock it.
