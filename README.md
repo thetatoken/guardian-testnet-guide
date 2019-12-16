@@ -44,7 +44,7 @@ The `syncing` field in the return indicates whether the node is still in the syn
 After the node is synced (i.e. `syncing` is `false`), we can proceed with staking to make it a full **Guardian Node**. First we'd need the "fingerprint" of this node. In another console, execute the following command
 
 ```
-./thetacli query guardian
+thetacli query guardian
 ```
 
 The output should look something like this:
