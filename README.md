@@ -40,7 +40,7 @@ The `syncing` field in the return indicates whether the node is still in the syn
 
 ## Stake to the guardian node
 
-After the node is synced (i.e. `syncing` is `false`), we can proceed to make it a **Guardian Node**. First we need to know the guardian address of this node. In another console, run 
+After the node is synced (i.e. `syncing` is `false`), we can proceed with staking to make it a full **Guardian Node**. First we'd need the "fingerprint" of this node. In another console, execute the following command
 
 ```
 ./thetacli query guardian
@@ -58,7 +58,7 @@ The output should look something like this:
 }
 ```
 
-The `summary` part is what we need for staking. For the next step, please follow the steps [here]() to stake some testnet Theta tokens from the Theta Wallet.
+The `summary` part is the "fingerprint" we need for staking. Next, please follow the steps [here]() to stake some testnet Theta tokens from the Theta Wallet. Each guardian staking transaction requires at least 10,000 Theta tokens.
 
 If everything works out, this node will start to send out guardian votes for the checkpoint blocks (i.e. the blocks whose `height%100 == 1`). In a few minutes we should start to see guardian votes in the log.
 
