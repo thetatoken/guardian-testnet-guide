@@ -20,7 +20,7 @@ export PATH=$PATH:~/theta/bin
 
 The steps to install the binary on MacOSX and Windows are similar (on Windows you can use the PowerShell or Cygwin). The only difference is that the `os` parameter for downloading the MacOSX and Windows binary are `macos` and `windows`, respectively.
 
-## Run the guardian node
+## Launch the guardian node
 
 Now launch the Theta node in a console with the following command:
 
@@ -37,6 +37,8 @@ thetacli query status
 ```
 
 The `syncing` field in the return indicates whether the node is still in the synchronization mode. If it is `false`, it means the node is already synced to the lastest block.
+
+## Stake to the guardian node
 
 After the node is synced (i.e. `syncing` is `false`), we can proceed to make it a **Guardian Node**. First we need to know the guardian address of this node. In another console, run 
 
