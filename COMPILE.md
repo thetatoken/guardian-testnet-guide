@@ -1,6 +1,6 @@
 # Install Guardian Node from Source Code
 
-## Install Go 1.12
+## Install Go 1.12.1
 
 Install Go and set environment variables `GOPATH` , `GOBIN`, and `PATH` following the commands below. The current code base should compile with **Go 1.12.1** on a Linux like system (i.e. Ubuntu, Mac OS X). Below are the steps to install Go 1.12.1 and setup the environments on Ubuntu.
 
