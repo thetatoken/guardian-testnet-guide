@@ -2,7 +2,7 @@
 
 ## Install the guardian node
 
-Please follow the instructions below to download the lastest Linux binary and the necessary data. If you prefer to compile from the source code, please follow the steps [here]().
+Please follow the instructions below to download the lastest Linux binary and the necessary data. If you prefer to compile from the source code, please follow the steps [here](https://github.com/thetatoken/guardian-testnet-guide/blob/master/COMPILE.md#install-guardian-node-from-source-code).
 
 ```
 mkdir ~/theta
