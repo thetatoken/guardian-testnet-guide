@@ -35,8 +35,8 @@ make install
 ```
 cd $THETA_HOME
 mkdir -p ../guardian_testnet/node
-wget -O ../guardian_testnet/node/snapshot `curl http://guardian-testnet-data.thetatoken.org:3000/snapshot`
-wget -O ../guardian_testnet/node/config.yaml `curl 'http://guardian-testnet-data.thetatoken.org:3000/config?is_guardian=true'`
+wget -O ../guardian_testnet/node/snapshot `curl https://guardian-testnet-data.thetatoken.org/snapshot`
+wget -O ../guardian_testnet/node/config.yaml `curl 'https://guardian-testnet-data.thetatoken.org/config?is_guardian=true'`
 ```
 
 ## Launch the node and stake
