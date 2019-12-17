@@ -41,6 +41,6 @@ wget -O ../guardian_testnet/node/config.yaml `curl 'https://guardian-testnet-dat
 
 ## Launch the node and stake
 
-Please continue with the instructions [here](https://github.com/thetatoken/guardian-testnet-guide/tree/master#launch-the-guardian-node).
+Please continue with the instructions [here](./CMD.md#launch-the-guardian-node).
 
 
