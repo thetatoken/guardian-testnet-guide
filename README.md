@@ -23,7 +23,7 @@ The steps to install the binary on MacOSX and Windows are similar (on Windows yo
 
 ## Launch the guardian node
 
-Now launch the Theta node in a console with the following command. If you are running the node on a Linux server, you'd need to run the node in a **screen or tmux** session, so that after you've logged off, the Theta node can continue to run.
+Now launch the Theta with the following commands. If you are running the node on a Linux server, you'd need to run the node in a **screen or tmux** session, so that after you've logged off, the Theta node can continue to run.
 
 ```
 screen -S theta
