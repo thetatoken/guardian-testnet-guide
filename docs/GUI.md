@@ -10,8 +10,10 @@ Please download the latest installation file from here for [MacOSX]() or [Window
 
 ## Stake to the Guardian node
 
-Now that you have the `summary` of your node, you can proceed to stake some tokens to it to make it a full guardian node. Please follow the instructions [here]() for the steps to stake from Web Wallet. If you want to stake from your Mobile Wallet, please follow the steps [here]().
+Now that you have the `summary` of your node, you can proceed to stake some tokens to it to make it a full guardian node. Please follow the instructions [here](./STAKING.md#staking-through-web-wallet) for the steps to stake from Web Wallet. If you want to stake from your Mobile Wallet, please follow the steps [here](./STAKING.md#staking-through-mobile-wallet).
 
 ## Verify the Guardian node
+
+## Verify the TFUEL earning
 
 
