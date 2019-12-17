@@ -19,7 +19,7 @@ export PATH=$PATH:~/theta/bin
 cd bin/
 ```
 
-The steps to install the binary on MacOSX and Windows are similar (on Windows you can use the PowerShell or Cygwin). The only difference is that the `os` parameter for downloading the MacOSX and Windows binary are `macos` and `windows`, respectively.
+The steps to install the binary on MacOSX and Windows are similar (on Windows you can use Cygwin, but make sure `wget` and `curl` are installed). The only difference is that the `os` parameter for downloading the MacOSX and Windows binary are `macos` and `windows`, respectively.
 
 ## Launch the guardian node
 
