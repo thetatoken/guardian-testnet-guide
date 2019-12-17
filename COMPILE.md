@@ -24,7 +24,9 @@ Clone the `guardian-testnet` branch of the Theta Ledger repo https://github.com/
 
 ```
 git clone --branch guardian-testnet https://github.com/thetatoken/theta-protocol-ledger.git $GOPATH/src/github.com/thetatoken/theta
+
 cd $GOPATH/src/github.com/thetatoken/theta
+
 export GO111MODULE=on
 make install
 ```
