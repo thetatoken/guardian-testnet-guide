@@ -16,4 +16,8 @@ Now that you have the `summary` of your node, you can proceed to stake some toke
 
 ## Verify the Guardian node
 
+After completing the staking transaction the Guardian Node app will display your current stake, total TFUEL earnings, session TFUEL earnings, and your node connectivity. You can also verify the staking transaction was completed by entering your wallet address or staking address in the [Testnet block explorer](https://guardian-testnet-explorer.thetatoken.org/). 
+
 ## Verify the TFUEL earning
+
+The Guardian Node app will display your total TFUEL earnings and session TFUEL earnings, or you can also see all of your TFUEL earnings earned by checking your wallet address in the [Testnet block explorer](https://guardian-testnet-explorer.thetatoken.org/). Guardian Node TFUEL earnings are awarded every 100 blocks, or approximately every 10 minutes.  
