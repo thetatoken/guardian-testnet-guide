@@ -6,7 +6,9 @@ Please download the latest installation file from here for [macOS](https://s3.us
 
 ## Install and launch the Guardian node
 
+When you run the Guardian Node app for the first time you'll see a welcome screen with instructions. Click "Continue, then create your GN password and click "Create Node". You may see a Windows message asking you to allow access for the Theta app; click "Allow access" to continue. 
 
+Allow your Guardian Node to sync to the Theta blockchain. This first time can take some time as you process all the blocks since the latest snapshot available. Once your node has synced, you'll see your Guardian Node Holder (Summary). You'll use this to stake your THETA tokens to your Guardian Node. 
 
 ## Stake to the Guardian node
 
@@ -15,5 +17,3 @@ Now that you have the `summary` of your node, you can proceed to stake some toke
 ## Verify the Guardian node
 
 ## Verify the TFUEL earning
-
-
