@@ -9,10 +9,10 @@ mkdir ~/theta
 cd ~/theta
 mkdir bin
 mkdir -p guardian_testnet/node
-wget -O bin/theta `curl 'https://guardian-testnet-data.thetatoken.org/binary?os=linux&name=theta'`
-wget -O bin/thetacli `curl 'https://guardian-testnet-data.thetatoken.org/binary?os=linux&name=thetacli'`
-wget -O guardian_testnet/node/snapshot `curl https://guardian-testnet-data.thetatoken.org/snapshot`
-wget -O guardian_testnet/node/config.yaml `curl 'https://guardian-testnet-data.thetatoken.org/config?is_guardian=true'`
+wget -O bin/theta `curl -k 'https://guardian-testnet-data.thetatoken.org/binary?os=linux&name=theta'`
+wget -O bin/thetacli `curl -k 'https://guardian-testnet-data.thetatoken.org/binary?os=linux&name=thetacli'`
+wget -O guardian_testnet/node/snapshot `curl -k https://guardian-testnet-data.thetatoken.org/snapshot`
+wget -O guardian_testnet/node/config.yaml `curl -k 'https://guardian-testnet-data.thetatoken.org/config?is_guardian=true'`
 chmod +x bin/theta
 chmod +x bin/thetacli
 export PATH=$PATH:~/theta/bin
