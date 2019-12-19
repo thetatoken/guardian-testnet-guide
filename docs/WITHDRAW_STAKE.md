@@ -1,6 +1,6 @@
 ## Withdrawing your stake from the Guardian Node
 
-To withdraw your staked tokens from the Guardian Node using either the Theta Web Wallet or Android/iOS wallet, click the "Stakes" tab, then the "Withdraw Stake" button. 
+To withdraw your staked tokens from the Guardian Node using either the Theta Web Wallet or Mobile Wallet, click the "Stakes" tab, then the "Withdraw Stake" button. 
 
 <a href="url"><img src="./images/withdraw_stake.png" align="center" height="50%" width="50%" ></a>
 
