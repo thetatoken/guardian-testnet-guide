@@ -2,7 +2,7 @@
 
 ## Install the guardian node
 
-Please follow the instructions below to download the lastest Linux binary and the necessary data. If you prefer to compile from the source code, please follow the steps [here](./COMPILE.md#install-guardian-node-from-source-code). If you are running the node on a Linux server, you'd need to run the node in a **screen or tmux** session, so that after you've logged off, the Theta node can continue to run.
+Please follow the instructions below to download the lastest **Linux** binary and the necessary data. If you prefer to compile from the source code, please follow the steps [here](./COMPILE.md#install-guardian-node-from-source-code). If you are running the node on a Linux server, you'd need to run the node in a **screen or tmux** session, so that after you've logged off, the Theta node can continue to run.
 
 ```
 screen -S theta
@@ -20,7 +20,7 @@ export PATH=$PATH:~/theta/bin
 cd bin/
 ```
 
-The steps to install the binary on **MacOSX** and **Windows** are similar (on Windows you can use Cygwin, but make sure `curl` is installed). The only difference is that the `os` parameter for downloading the MacOSX and Windows binary are `macos` and `windows`, respectively.
+The steps to install the binary on **macOS** and **Windows** are similar (on Windows you can use Cygwin, but make sure `curl` is installed). The only difference is that the `os` parameter for downloading the MacOSX and Windows binary are `macos` and `windows`, respectively.
 
 ## Launch the guardian node
 
