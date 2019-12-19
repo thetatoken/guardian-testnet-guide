@@ -36,14 +36,6 @@ You can also verify the staking transaction was completed by entering your walle
 
 The Guardian Node app will display your total TFUEL earnings and session TFUEL earnings, or you can also see all of your TFUEL earnings earned by checking your wallet address in the [Testnet block explorer](https://guardian-testnet-explorer.thetatoken.org/). Guardian Node TFUEL earnings are awarded every 100 blocks, or approximately every 10 minutes.  
 
-## Withdrawing your stake from the Guardian Node
+## Withdrawing your stake from the Guardian node
 
-To withdraw your staked tokens from the Guardian Node using either the Theta Web Wallet or Android/iOS wallet, click the "Stakes" tab, then the "Withdraw Stake" button. 
-
-<a href="url"><img src="./images/withdraw_stake.png" align="center" height="50%" width="50%" ></a>
-
-Enter the Guardian Node address you want to the withdraw the stake from and click "Withdraw Stake". On the next screen, review the transaction information, enter your wallet password, and click "Confirm & Withdraw Stake". 
-
-<a href="url"><img src="./images/withdraw_stake_2.png" align="center" height="50%" width="50%" ></a>
-
-Withdrawn stakes will be returned to your wallet address in approximately 48 hours. In the "Stakes" section of your Theta wallet, you'll now see the stake's Withdrawn status has been changed to "Yes" and there is a projected "Return Height" which is the block at which your stake will be available in your wallet address. 
+If at a later time you wish to withdraw your stake tokens from the Guardian node, please follow the instructions [here](./WITHDRAW_STAKE.md).
