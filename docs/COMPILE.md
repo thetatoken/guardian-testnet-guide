@@ -5,6 +5,7 @@
 Install Go and set environment variables `GOPATH` , `GOBIN`, and `PATH` following the commands below. The current code base should compile with **Go 1.12.1** on a Linux like system (i.e. Ubuntu, Mac OS X). Below are the steps to install Go 1.12.1 and setup the environments on Ubuntu.
 
 ```
+screen -S theta
 sudo apt-get update
 sudo apt-get install build-essential
 sudo apt-get install gcc
