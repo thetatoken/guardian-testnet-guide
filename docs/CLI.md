@@ -32,7 +32,7 @@ theta start --config=../guardian_testnet/node
 
 **NOTE**: When the Theta node launches for the first time, you need to choose a password to encrypt the signing key of the guardian node. **Please choose a secure password and keep it in a safe place**. The next time when you restart the node, you will need the password to unlock it.
 
-It might take some time for the node to sync up with the network (typically should be less than 10 minutes). To check if the node is already in-sync with the network, you can execute the following command
+It might take some time for the node to sync up with the network (typically should be less than 10 minutes). To check if the node is already in-sync with the network, you can execute the following command in **another console**:
 
 ```
 thetacli query status
