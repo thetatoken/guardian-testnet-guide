@@ -2,7 +2,7 @@
 
 ## Staking through Web Wallet
 
-Access the [Theta Web Wallet](https://wallet-beta.thetatoken.org/) from your desktop/laptop. Under the “Theta Wallet” logo, you can click the drop down menu to select a network. Change the selected network to “Testnet_Amber: THETA testnet for Guardian Nodes”
+Access the [Theta Web Wallet](https://wallet.thetatoken.org/) from your desktop/laptop. Under the “Theta Wallet” logo, you can click the drop down menu to select a network. Change the selected network to “Testnet_Amber: THETA testnet for Guardian Nodes”
 
 Unlock your Theta wallet using your typical access method (keystore, seed phrase, hardware wallet, etc.). Once your wallet is unlocked, click the “Stakes” tab of the menu and click “Deposit Stake”.
 
