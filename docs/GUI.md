@@ -18,7 +18,7 @@ Allow your Guardian Node to sync to the Theta blockchain. This first time can ta
 
 Once your node has synced, you'll see your Guardian Node Holder (Summary). You'll use this to stake your THETA tokens to your Guardian Node. 
 
-![](./images/wallet_confirm_stake.png)
+![](./images/GN_deposit_stake.png)
 
 ## Stake to the Guardian node
 
