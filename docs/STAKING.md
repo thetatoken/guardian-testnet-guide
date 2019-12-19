@@ -8,7 +8,7 @@ Unlock your Theta wallet using your typical access method (keystore, seed phrase
 
 In the Guardian Node Holder (Summary) field, enter the text string from your Guardian Node app. Enter the Amount of THETA you want to stake to this node and click “Deposit Stake". After reviewing your stake deposit info, enter your wallet password, then click "Confirm & Deposit Stake".  
 
-After the stake deposit transaction is confirmed, you can switch back to the Guardian node to [verify that it is working as expected](docs/GUI.md#verify-the-guardian-node)
+After the stake deposit transaction is confirmed, you can switch back to the Guardian node to [verify that it is working as expected](./GUI.md#verify-the-guardian-node).
 
 ## Staking through Mobile Wallet
 
@@ -18,4 +18,4 @@ Once your wallet is unlocked, click the “Stakes” tab of the menu and click �
 
 In the Guardian Node Holder (Summary) field of the Theta Wallet app, click the QR code icon and use your device to scan the QR code from your Guardian Node app. Then in the Wallet app enter the amount of THETA you want to stake to your Guardian Node and click “Next". 
 
-After the stake deposit transaction is confirmed, you can switch back to the Guardian node to [verify that it is working as expected](docs/GUI.md#verify-the-guardian-node)
+After the stake deposit transaction is confirmed, you can switch back to the Guardian node to [verify that it is working as expected](./GUI.md#verify-the-guardian-node).
