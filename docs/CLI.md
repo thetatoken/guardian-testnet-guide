@@ -10,17 +10,17 @@ mkdir ~/theta
 cd ~/theta
 mkdir bin
 mkdir -p guardian_testnet/node
-wget -O bin/theta `curl -k 'https://guardian-testnet-data.thetatoken.org/binary?os=linux&name=theta'`
-wget -O bin/thetacli `curl -k 'https://guardian-testnet-data.thetatoken.org/binary?os=linux&name=thetacli'`
-wget -O guardian_testnet/node/snapshot `curl -k https://guardian-testnet-data.thetatoken.org/snapshot`
-wget -O guardian_testnet/node/config.yaml `curl -k 'https://guardian-testnet-data.thetatoken.org/config?is_guardian=true'`
+curl -k --output bin/theta `curl -k 'https://guardian-testnet-data.thetatoken.org/binary?os=linux&name=theta'`
+curl -k --output bin/thetacli `curl -k 'https://guardian-testnet-data.thetatoken.org/binary?os=linux&name=thetacli'`
+curl -k --output guardian_testnet/node/snapshot `curl -k https://guardian-testnet-data.thetatoken.org/snapshot`
+curl -k --output guardian_testnet/node/config.yaml `curl -k 'https://guardian-testnet-data.thetatoken.org/config?is_guardian=true'`
 chmod +x bin/theta
 chmod +x bin/thetacli
 export PATH=$PATH:~/theta/bin
 cd bin/
 ```
 
-The steps to install the binary on **MacOSX** and **Windows** are similar (on Windows you can use Cygwin, but make sure `wget` and `curl` are installed). The only difference is that the `os` parameter for downloading the MacOSX and Windows binary are `macos` and `windows`, respectively.
+The steps to install the binary on **MacOSX** and **Windows** are similar (on Windows you can use Cygwin, but make sure `curl` is installed). The only difference is that the `os` parameter for downloading the MacOSX and Windows binary are `macos` and `windows`, respectively.
 
 ## Launch the guardian node
 
