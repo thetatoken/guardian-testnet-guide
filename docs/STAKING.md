@@ -2,20 +2,34 @@
 
 ## Staking through Web Wallet
 
-Access the [Theta Web Wallet](https://wallet.thetatoken.org/) from your desktop/laptop. Under the “Theta Wallet” logo, you can click the drop down menu to select a network. Change the selected network to “Testnet_Amber: THETA testnet for Guardian Nodes”
+Access the [Theta Web Wallet](https://wallet.thetatoken.org/) from your desktop/laptop. Under the “Theta Wallet” logo, you can click the drop down menu to select a network. Change the selected network to “Testnet_Amber: THETA testnet for Guardian Nodes”, then unlock your Theta wallet using your typical access method (keystore, seed phrase, hardware wallet, etc.). 
 
-Unlock your Theta wallet using your typical access method (keystore, seed phrase, hardware wallet, etc.). Once your wallet is unlocked, click the “Stakes” tab of the menu and click “Deposit Stake”.
+<a href="url"><img src="./images/Theta_wallet_testnet_amber.png" align="center" height="50%" width="50%" ></a>
 
-In the Guardian Node Holder (Summary) field, enter the text string from your Guardian Node app. Enter the Amount of THETA you want to stake to this node and click “Deposit Stake". After reviewing your stake deposit info, enter your wallet password, then click "Confirm & Deposit Stake".  
+Once your wallet is unlocked, click the “Stakes” tab of the menu and click “Deposit Stake”.
 
-After the stake deposit transaction is confirmed, you can switch back to the Guardian node to [verify that it is working as expected](./GUI.md#verify-the-guardian-node).
+<a href="url"><img src="./images/withdraw_stake.png" align="center" height="50%" width="50%" ></a>
+
+In the Guardian Node Holder (Summary) field, enter the text string from your Guardian Node app. Enter the Amount of THETA you want to stake to this node and click “Deposit Stake". 
+
+<a href="url"><img src="./images/wallet_deposit_stake.png" align="center" height="50%" width="50%" ></a>
+
+After reviewing your stake deposit info on the next screen, enter your wallet password, then click "Confirm & Deposit Stake". After the stake deposit transaction is confirmed, you can switch back to the Guardian node to [verify that it is working as expected](./GUI.md#verify-the-guardian-node).
 
 ## Staking through Mobile Wallet
 
 Download the Theta Wallet app in the App Store / Play Store, or if already installed make sure  you have upgraded to version x.xx (iOS) / x.xx (Android). Under the “Theta Wallet” logo, you can click the drop down menu to select a network. Change the selected network to “Testnet_Amber: THETA testnet for Guardian Nodes”
 
-Once your wallet is unlocked, click the “Stakes” tab of the menu and click “Deposit”.
+<a href="url"><img src="./images/mobile_wallet_testnet.png" align="center" height="50%" width="50%" ></a>
 
-In the Guardian Node Holder (Summary) field of the Theta Wallet app, click the QR code icon and use your device to scan the QR code from your Guardian Node app. Then in the Wallet app enter the amount of THETA you want to stake to your Guardian Node and click “Next". 
+Once your wallet is unlocked, click the “Stakes” tab at the bottom of the screen, then click “Deposit”.
+
+In the Guardian Node Holder (Summary) field of the Theta Wallet app, click the QR code icon and use your device to scan the QR code from your Guardian Node app. 
+
+<a href="url"><img src="./images/mobile_wallet_deposit.png" align="center" height="50%" width="50%" ></a>
+
+Then in the Wallet app enter the amount of THETA you want to stake to your Guardian Node and click “Next". 
+
+<a href="url"><img src="./images/mobile_wallet_deposit2.png" align="center" height="50%" width="50%" ></a>
 
 After the stake deposit transaction is confirmed, you can switch back to the Guardian node to [verify that it is working as expected](./GUI.md#verify-the-guardian-node).
