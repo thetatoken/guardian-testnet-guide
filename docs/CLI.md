@@ -2,9 +2,10 @@
 
 ## Install the guardian node
 
-Please follow the instructions below to download the lastest Linux binary and the necessary data. If you prefer to compile from the source code, please follow the steps [here](./COMPILE.md#install-guardian-node-from-source-code).
+Please follow the instructions below to download the lastest Linux binary and the necessary data. If you prefer to compile from the source code, please follow the steps [here](./COMPILE.md#install-guardian-node-from-source-code). If you are running the node on a Linux server, you'd need to run the node in a **screen or tmux** session, so that after you've logged off, the Theta node can continue to run.
 
 ```
+screen -S theta
 mkdir ~/theta
 cd ~/theta
 mkdir bin
@@ -15,6 +16,7 @@ wget -O guardian_testnet/node/snapshot `curl -k https://guardian-testnet-data.th
 wget -O guardian_testnet/node/config.yaml `curl -k 'https://guardian-testnet-data.thetatoken.org/config?is_guardian=true'`
 chmod +x bin/theta
 chmod +x bin/thetacli
+export PATH=$PATH:~/theta/bin
 cd bin/
 ```
 
@@ -22,12 +24,9 @@ The steps to install the binary on MacOSX and Windows are similar (on Windows yo
 
 ## Launch the guardian node
 
-Now launch the Theta with the following commands. If you are running the node on a Linux server, you'd need to run the node in a **screen or tmux** session, so that after you've logged off, the Theta node can continue to run.
+Now launch the Theta with the following commands.
 
 ```
-screen -S theta
-export PATH=$PATH:~/theta/bin
-
 theta start --config=../guardian_testnet/node
 ```
 
