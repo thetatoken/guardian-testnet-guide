@@ -15,7 +15,6 @@ wget -O guardian_testnet/node/snapshot `curl -k https://guardian-testnet-data.th
 wget -O guardian_testnet/node/config.yaml `curl -k 'https://guardian-testnet-data.thetatoken.org/config?is_guardian=true'`
 chmod +x bin/theta
 chmod +x bin/thetacli
-export PATH=$PATH:~/theta/bin
 cd bin/
 ```
 
@@ -27,6 +26,8 @@ Now launch the Theta with the following commands. If you are running the node on
 
 ```
 screen -S theta
+export PATH=$PATH:~/theta/bin
+
 theta start --config=../guardian_testnet/node
 ```
 
