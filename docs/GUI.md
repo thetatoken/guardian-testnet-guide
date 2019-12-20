@@ -2,7 +2,7 @@
 
 ## Download the installation file
 
-Please download the latest installation file from here for [Windows](https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/apps/guardian-node/ThetaGN+Setup+0.0.8.exe?latest=true) or [MacOS](https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/apps/guardian-node/ThetaGN-0.0.8.dmg). If you prefer to run your guardian node on Mac or Linux from the command line, please follow the instructions [here](./CLI.md#running-a-guardian-node-through-command-line). 
+Please download the latest installation file from here for [Windows](https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/apps/guardian-node/ThetaGN+Setup+0.0.15.exe) or [MacOS](https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/apps/guardian-node/ThetaGN-0.0.8.dmg). If you prefer to run your guardian node on Mac or Linux from the command line, please follow the instructions [here](./CLI.md#running-a-guardian-node-through-command-line). 
 
 ## Install and launch the Guardian node
 
