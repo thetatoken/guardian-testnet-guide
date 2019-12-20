@@ -2,7 +2,7 @@
 
 ## Download the installation file
 
-Please download the latest installation file from here for [Windows](https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/apps/guardian-node/ThetaGN+Setup+0.0.15.exe) or [MacOS](https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/apps/guardian-node/ThetaGN-0.0.8.dmg). If you prefer to run your guardian node on Mac or Linux from the command line, please follow the instructions [here](./CLI.md#running-a-guardian-node-through-command-line). 
+Please download the latest installation file from here for [Windows](https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/apps/guardian-node/ThetaGN+Setup+0.0.15.exe) or [macOS](https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/apps/guardian-node/ThetaGN-0.0.8.dmg). If you prefer to run your guardian node on Mac or Linux from the command line, please follow the instructions [here](./CLI.md#running-a-guardian-node-through-command-line). 
 
 ## Install and launch the Guardian node
 
@@ -10,13 +10,13 @@ When you run the Guardian Node app for the first time you'll see a welcome scree
 
 <a href="url"><img src="./images/GN_welcome.png" align="center" height="50%" width="50%" ></a>
 
-Click "Continue, then create your GN password and click "Create Node". You may see a Windows message asking you to allow access for the Theta app; click "Allow access" to continue. 
+Click "**Continue**", then create your GN password and click "**Create Node**". You may see a Windows message asking you to allow access for the Theta app; click "**Allow access**" to continue. 
 
-Allow your Guardian Node to sync to the Theta blockchain. This first time can take some time as you process all the blocks since the latest snapshot available. 
+Allow your Guardian Node to sync to the Theta blockchain. This first time can take some time as you process all the blocks since the latest snapshot available (typically should be less than 10 minutes). 
 
 <a href="url"><img src="./images/GN_syncing.png" align="center" height="50%" width="50%" ></a>
 
-Once your node has synced, you'll see your Guardian Node Holder (Summary). You'll use this to stake your THETA tokens to your Guardian Node. 
+Once your node has synced, you'll see the `summary` of your node under **Guardian Node Holder (Summary)**. You'll use this to stake your THETA tokens to your Guardian Node. 
 
 <a href="url"><img src="./images/GN_deposit_stake.png" align="center" height="50%" width="50%" ></a>
 
@@ -30,7 +30,7 @@ After completing the staking transaction the Guardian Node app will display your
 
 <a href="url"><img src="./images/GN_verified.png" align="center" height="50%" width="50%" ></a>
 
-You can also verify the staking transaction was completed by entering your wallet address or staking address in the [Testnet block explorer](https://guardian-testnet-explorer.thetatoken.org/). 
+You can also verify the staking transaction was completed by entering your wallet address or staking address in the [Testnet block explorer](https://guardian-testnet-explorer.thetatoken.org/).
 
 ## Verify the TFUEL earning
 
