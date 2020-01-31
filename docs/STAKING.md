@@ -20,7 +20,7 @@ After reviewing your stake deposit info on the next screen, enter your wallet pa
 
 Download the Theta Wallet app in the App Store / Play Store, or if already installed make sure  you have upgraded to version 2.0.0 (iOS) / 2.0.0 (Android). Under the “Theta Wallet” logo, you can click the **drop down menu** to select a network. Change the selected network to “**Testnet_Amber**: THETA testnet for Guardian Nodes”. If the drop down menu is not clickable, please kill and restart the app.
 
-<a href="url"><img src="./images/mobile_wallet_menu.jpg" align="center" height="50%" width="50%" ></a>
+<a href="url"><img src="./images/mobile_wallet_menu2.jpg" align="center" height="50%" width="50%" ></a>
 
 Once your wallet is unlocked, click the “**Stakes**” tab at the bottom of the screen, then click “**Deposit**”.
 
