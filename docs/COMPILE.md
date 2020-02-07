@@ -10,6 +10,7 @@ sudo apt-get update
 sudo apt-get install build-essential
 sudo apt-get install gcc
 sudo apt-get install make
+sudo apt install libstdc++-7-dev
 sudo wget https://dl.google.com/go/go1.12.1.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.12.1.linux-amd64.tar.gz
 echo 'export GOROOT=/usr/local/go' >> ~/.bashrc
