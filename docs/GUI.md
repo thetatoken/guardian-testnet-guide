@@ -16,7 +16,7 @@ Allow your Guardian Node to sync to the Theta blockchain. This first time can ta
 
 <a href="url"><img src="./images/GN_syncing.png" align="center" height="50%" width="50%" ></a>
 
-Once your node has synced, you'll see the `summary` of your node under **Guardian Node Holder (Summary)**. You'll use this to stake your THETA tokens to your Guardian Node. 
+Once your node has synced, you'll see the `summary` of your node under **Guardian Node Holder (Summary)**. You'll use this to stake your THETA tokens to your Guardian Node. If you need to stake tokens using the QR code, please **click on the QR code image to enlarge it** first, and then you'll be able to scan it.
 
 <a href="url"><img src="./images/GN_deposit_stake.png" align="center" height="50%" width="50%" ></a>
 
