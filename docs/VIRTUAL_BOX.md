@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=QbmRXJJKsvs
 
 ## Download and launch the Theta Guardian Node
 
-**Step 1**. Open the Chrome browser on the Ubuntu Desktop, and download the Linux Desktop version of the Guardian Node from [here](https://api.thetatoken.org/downloads/guardian-node/linux).
+**Step 1**. Open the Firefox browser on the Ubuntu Desktop, and download the Linux Desktop version of the Guardian Node from [here](https://api.thetatoken.org/downloads/guardian-node/linux).
 
 **Step 2**. Navigate to `Files -> Downloads` and find `ThetaGN-x.x.x.Appimage` file
 
