@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=QbmRXJJKsvs
 
 <a href="url"><img src="./images/vb_download_GN.JPG" align="center" height="50%" width="50%" ></a>
 
-**Step 3**. Right click `Properties -> Permissions -> checkmark “Allow executing file as 
+**Step 3**. Right click `Properties -> Permissions`, then checkmark “Allow executing file as 
 program”`
 
 <a href="url"><img src="./images/vb_GN_properties.JPG" align="center" height="50%" width="50%" ></a>
