@@ -30,7 +30,7 @@ After completing the staking transaction the Guardian Node app will display your
 
 <a href="url"><img src="./images/GN_verified.png" align="center" height="50%" width="50%" ></a>
 
-You can verify the staking transaction was completed by entering your wallet address or staking address in the [Testnet block explorer](https://guardian-testnet-explorer.thetatoken.org/). You can also verify your earnings in the [Theta Wallet](https://wallet.thetatoken.org/). Remember to select **Amber_Testnet** from the drop down menu.
+You can verify the staking transaction was completed by entering your wallet address or staking address in the [Testnet block explorer](https://guardian-testnet-explorer.thetatoken.org/). You can also verify your earnings in the [Theta Wallet](https://wallet.thetatoken.org/). Remember to select **Sapphire_Testnet** from the drop down menu.
 
 ## Verify the TFUEL earning
 
