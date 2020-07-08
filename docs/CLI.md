@@ -27,7 +27,7 @@ The steps to install the binary on **macOS** and **Windows** are similar (on Win
 Now launch the Theta with the following commands.
 
 ```
-theta start --config=../guardian_testnet/node
+./theta start --config=../guardian_testnet/node
 ```
 
 **NOTE**: When the Theta node launches for the first time, you need to choose a password to encrypt the signing key of the guardian node. **Please choose a secure password and keep it in a safe place**. The next time when you restart the node, you will need the password to unlock it.
